@@ -1,0 +1,103 @@
+body{
+    background-image: url(../img/background-cadastrar.png);
+    background-size: 100%;
+    /* background-repeat: no-repeat; */
+}
+#cadastrar{
+    margin: 175px auto;
+        font-family: Arial, Helvetica, sans-serif;
+        width: 680px;
+        height: 1000px;
+        background-color: #5153A8;
+        border-radius: 15px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 6px 16px;
+}
+
+img {
+    display: block;
+    margin:auto;
+}
+p{
+    color: #6DD3EA;
+}
+#nome{
+    width: 490px;
+    height: 45px;
+    border-radius: 18px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border: none;
+    display: block;
+    margin: auto;
+}
+#cpf{
+    width: 490px;
+    height: 45px;
+    border-radius: 18px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border: none;
+    display: block;
+    margin: auto;
+}
+#email{
+    width: 490px;
+    height: 45px;
+    border-radius: 18px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border: none;
+    display: block;
+    margin: auto;
+}
+#senha{
+    width: 290px;
+    height: 45px;
+    border-radius: 18px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border: none;
+    display: block;
+    margin: auto;
+}
+
+#button{
+    background-color: #6DD3EA;
+    color: white;
+    width: 100px;
+    height: 40px;
+    display: block;
+    margin:  20px auto;
+    border: none;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+#fotodeperfil{
+    position: relative;
+    /* display: block; */
+    margin: auto;
+    width: 220px;
+    height: 220px;
+}
+#fotodeperfil img{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+   
+    
+  }
+#fotodeperfil #add{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 35px;
+    background: #00B4FF;
+    width: 40px;
+    height: 40px;
+    line-height: 33px;
+    text-align: center;
+    border-radius: 50%;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  #fotodeperfil input{
+    position: absolute;
+    transform: scale(2);
+    opacity: 0;
+  }
